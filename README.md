@@ -42,3 +42,29 @@ with open('out.csv', 'r') as arquivo:
 
 ranking = sorted(entradas_por_linha.items(), key=lambda item: item[1], reverse=True)
 print(ranking)
+
+
+
+
+## Linguagem Utilizada
+O algoritmo foi desenvolvido em **Python 3.11.9**, garantindo compatibilidade com as versões mais recentes da linguagem.
+
+## IDE Utilizada
+O desenvolvimento foi realizado no **Visual Studio Code (VS Code)**, proporcionando suporte a sintaxe, depuração e execução integrada do código Python.
+
+## Infraestrutura de Arquivos Necessária
+Para o correto funcionamento do algoritmo, os seguintes arquivos devem estar presentes na mesma pasta:
+
+- **out.csv** → arquivo de entrada contendo os dados do fluxo de passageiros em cada linha de ônibus.  
+- **main.py** → arquivo contendo o algoritmo principal.  
+
+## Instruções de Execução
+Siga os passos abaixo para executar o algoritmo:
+
+1. Certifique-se de que o **Python 3.11.9** esteja instalado em seu sistema.  
+2. Coloque o arquivo **out.csv** na mesma pasta do **main.py**.  
+3. Abra o terminal ou prompt de comando na pasta do projeto.  
+4. Execute o programa com o comando:  
+
+```bash
+python main.py

@@ -78,3 +78,7 @@ Após a execução do algoritmo `main.py`, o programa exibirá no terminal o **r
 Exemplo de saída no console:
 
 ![Exemplo](teste_python.png)
+
+No ranking:  
+- O **primeiro número** de cada tupla representa o **ID da linha de ônibus**.  
+- O **segundo número** indica o **total de passageiros que entraram** nessa linha.  

@@ -9,4 +9,10 @@ Com base nesses dados, será possível gerar um **ranking das linhas mais movime
 
 ### Pontos Fundamentais
 - **Necessidade de dados confiáveis para decisões de investimento**: garante que a escolha das linhas a receber novos ônibus seja feita com base em evidências concretas.  
-- **Apoio à mobilidade urbana inteligente**: contribui para um transporte público mais eficiente, moderno e integrado às demandas reais da população.  
+- **Apoio à mobilidade urbana inteligente**: contribui para um transporte público mais eficiente, moderno e integrado às demandas reais da população.
+
+## Fluxograma do Algoritmo
+
+Abaixo está o fluxograma que representa as etapas do algoritmo:
+
+![Fluxograma do algoritmo](fluxograma.jpg)

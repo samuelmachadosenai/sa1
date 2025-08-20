@@ -25,5 +25,3 @@ with open('out.csv', 'r') as arquivo:
 
 
 print(ranking)
-
-# print(sorted(nome_do_dic, key=lambda x: nome_do_dic["passageiros"], reverse=True))

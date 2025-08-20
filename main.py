@@ -19,9 +19,17 @@ with open('out.csv', 'r') as arquivo:
 # separa cada par em uma lista, usando a vírgula como separador
         pares = dados.split(",")
 
+# soma todos os valores de entradas (números antes dos ":") na lista de pares
         total_entradas = sum(int(entrada.split(":")[0]) for entrada in pares)
+
+# acumula o total de entradas no dicionário
         entradas_por_linha[id_linha] = entradas_por_linha.get(id_linha, 0) + total_entradas
+
+
+# gera um ranking temporário das linhas com mais passageiros
+# ordena pelo total de entradas, do maior para o menor
         ranking = sorted(entradas_por_linha.items(), key=lambda item: item[1], reverse=True)
 
-
+# imprime o ranking final no console
+# cada item da lista é uma tupla: (ID da linha, total de passageiros)
 print(ranking)

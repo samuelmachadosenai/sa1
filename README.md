@@ -85,7 +85,7 @@ No ranking:
 
 ## Créditos
 
-**Autores:** Samuel Machado Emerenciano, Mayla Camilly Brito Cordeiro, 
+**Autores:** Samuel Machado Emerenciano, Mayla Camilly Brito Cordeiro, Pedro Henrique Maia Caetano
 
 **Curso:** Técnico em Desenvolvimento de Sistemas – Senai  
 

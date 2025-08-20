@@ -69,3 +69,12 @@ Siga os passos abaixo para executar o algoritmo:
 
 ```bash
 python main.py
+```
+
+## Resultados Esperados
+
+Após a execução do algoritmo `main.py`, o programa exibirá no terminal o **ranking das linhas de ônibus**, do maior para o menor volume de passageiros.  
+
+Exemplo de saída no console:
+
+![Exemplo](teste_python.png)

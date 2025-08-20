@@ -42,6 +42,7 @@ with open('out.csv', 'r') as arquivo:
 
 ranking = sorted(entradas_por_linha.items(), key=lambda item: item[1], reverse=True)
 print(ranking)
+```
 
 
 

@@ -81,4 +81,12 @@ Exemplo de saída no console:
 
 No ranking:  
 - O **primeiro número** de cada tupla representa o **ID da linha de ônibus**.  
-- O **segundo número** indica o **total de passageiros que entraram** nessa linha.  
+- O **segundo número** indica o **total de passageiros que entraram** nessa linha.
+
+## Créditos
+
+**Autores:** Samuel Machado Emerenciano, Mayla Camilly Brito Cordeiro, 
+
+**Curso:** Técnico em Desenvolvimento de Sistemas – Senai  
+
+**Instituição:** Senai Itajaí 

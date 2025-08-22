@@ -17,7 +17,7 @@ Com base nesses dados, será possível gerar um **ranking das linhas mais movime
 
 Abaixo está o fluxograma que representa as etapas do algoritmo:
 
-![Fluxograma do algoritmo](fluxograma.jpg)
+![Fluxograma do algoritmo](_Fluxograma.jpeg)
 
 
 ## Algoritmo

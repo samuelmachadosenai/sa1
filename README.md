@@ -20,33 +20,6 @@ Abaixo está o fluxograma que representa as etapas do algoritmo:
 ![Fluxograma do algoritmo](fluxograma.jpg)
 
 
-## Algoritmo
-
-A seguir está o código-fonte principal do algoritmo desenvolvido (`main.py`):
-
-```python
-# main.py
-# Descrição: Algoritmo para contabilizar passageiros em linhas de ônibus,
-# identificar quais linhas possuem maior demanda e gerar um ranking.
-
-entradas_por_linha = {}  
-
-with open('out.csv', 'r') as arquivo:
-    for linha in arquivo:
-        linha_limpa = linha.strip()
-        id_linha = int(linha_limpa.split(",", 1)[0])
-        dados = linha_limpa.split(",", 1)[1]
-        pares = dados.split(",")
-        total_entradas = sum(int(pass_.split(":")[0]) for pass_ in pares)
-        entradas_por_linha[id_linha] = entradas_por_linha.get(id_linha, 0) + total_entradas
-
-ranking = sorted(entradas_por_linha.items(), key=lambda item: item[1], reverse=True)
-print(ranking)
-```
-
-
-
-
 ## Linguagem Utilizada
 O algoritmo foi desenvolvido em **Python 3.11.9**, garantindo compatibilidade com as versões mais recentes da linguagem.
 
